@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  background-color: white;
+
+  padding: 0 15px;
+
+  .nav-left {
+    padding: 0 50px;
+  }
+  .nav-right {
+    justify-content: right;
+    // width: 45%;
+
+    a {
+      padding: 15px;
+
+      button {
+        color: black;
+        outline: none;
+        border: none;
+        background-color: rgb(208, 29, 125);
+        padding: 15px 20px;
+        border-radius: 30px;
+      }
+    }
+  }
+}
